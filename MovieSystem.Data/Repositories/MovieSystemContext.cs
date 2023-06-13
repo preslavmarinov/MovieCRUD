@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MovieSystem.Data.Entities;
+using MovieSystem.Data.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,5 +22,12 @@ namespace MovieSystem.Data.Repositories
         public DbSet<Director> Directors { get; set; }
         public DbSet<ProducingCompany> ProducingCompanies { get; set; }
         public DbSet<Genre> Genres { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Seed();
+        }
     }
 }

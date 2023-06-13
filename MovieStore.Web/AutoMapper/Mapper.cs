@@ -13,7 +13,10 @@ namespace MovieSystem.Web.AutoMapper
         public Mapper()
         {
             CreateMap<MovieViewModel,MovieDTO>().ReverseMap();
-            CreateMap<Movie, MovieViewModel>().ForMember(x => x.DirectorName, x => x.MapFrom(y => $"{y.Director.FirstName} {y.Director.LastName}"));
+            CreateMap<Movie, MovieViewModel>().ForMember(x => x.DirectorName, x => x.MapFrom(y => $"{y.Director.FirstName} {y.Director.LastName}"))
+                .ForMember(x => x.ProducingCompanyName, x => x.MapFrom(y => y.ProducingCompany.Name))
+                .ForMember(x => x.GenreName, x => x.MapFrom(y => y.Genre.Name));
+
             CreateMap<MovieCreateModel, MovieDTO>().ReverseMap();
             CreateMap<DirectorViewModel, DirectorDTO>().ReverseMap().ForMember(x => x.Name, x => x.MapFrom(y => $"{y.FirstName} {y.LastName}"));
             CreateMap<DirectorCreateModel, DirectorDTO>().ReverseMap();

@@ -89,13 +89,13 @@ namespace MovieSystem.Web.Controllers
         {
             GenreDTO newGenre = _mapper.Map<GenreDTO>(genre);
             _genreService.CreateGenre(newGenre);
-            return RedirectToAction("GetAllMovies");
+            return RedirectToAction("ListGenres");
         }
 
         public IActionResult DeleteGenre(Guid id)
         {
             _genreService.DeleteGenre(id);
-            return RedirectToAction("GetAllMovies");
+            return RedirectToAction("ListGenres");
         }
 
         [HttpGet]

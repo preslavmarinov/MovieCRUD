@@ -12,7 +12,10 @@ namespace MovieSystem.Domain.DTO
         public string Price { get; set; }
         public string ReleaseDate { get; set; }
         public string DirectorId { get; set; }
+        public string DirectorName { get; set; }
         public string ProducingCompanyId { get; set; }
+        public string ProducingCompanyName { get; set; }
         public string GenreId { get; set; }
+        public string GenreName { get; set; }
     }
 }

@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace MovieSystem.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class InitialS : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -227,6 +229,33 @@ namespace MovieSystem.Data.Migrations
                         principalTable: "ProducingCompanies",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "07ccc741-e525-45b7-a287-a44928e7a2ac", null, "Admin", "ADMIN" },
+                    { "522bdb99-e3df-4832-bf27-62dc11568df8", null, "User", "USER" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[,]
+                {
+                    { "d1cb8d48-c11a-4a49-815e-c4a2ab377a7f", 0, "81bb781e-4262-432c-befb-4d6e57aa11b0", "user@gmail.com", true, false, null, "USER@GMAIL.COM", "USER", "AQAAAAIAAYagAAAAENB2RPWJ+6LdmI/nwpTBnwowgJ+WTfbXKQ8nVIFz4qrs5YNCNSOF0+rsBAwmsyPUwg==", null, false, "fcf56a61-bc1d-4f58-b8a9-6e44637dfd0c", false, "user" },
+                    { "e8fd30c8-8a1b-4e0c-b12d-cffce4ad49c6", 0, "7f5da111-7d39-4505-ad3b-175035fd1712", "admin@gmail.com", true, false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEHaOYydjiKk49jk0Lt8dqSxlJtT+1p3VJUDHC1vn6l5XMDB0+yFszIA7tBm0WH0eTA==", null, false, "6c200bae-5efd-4f2a-8c2a-5b09a63f7415", false, "admin" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[,]
+                {
+                    { "522bdb99-e3df-4832-bf27-62dc11568df8", "d1cb8d48-c11a-4a49-815e-c4a2ab377a7f" },
+                    { "07ccc741-e525-45b7-a287-a44928e7a2ac", "e8fd30c8-8a1b-4e0c-b12d-cffce4ad49c6" }
                 });
 
             migrationBuilder.CreateIndex(
