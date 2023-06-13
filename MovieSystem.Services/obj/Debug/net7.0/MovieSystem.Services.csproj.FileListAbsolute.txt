@@ -1,0 +1,17 @@
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Services.deps.json
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Services.dll
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Services.pdb
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Data.dll
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Domain.dll
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Data.pdb
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\bin\Debug\net7.0\MovieSystem.Domain.pdb
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.csproj.AssemblyReference.cache
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.AssemblyInfoInputs.cache
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.AssemblyInfo.cs
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.csproj.CoreCompileInputs.cache
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.csproj.CopyComplete
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.dll
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\refint\MovieSystem.Services.dll
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\MovieSystem.Services.pdb
+C:\Users\Preslav Marinov\OneDrive\Desktop\ASP.Net and Design Patterns\.NET-core-MVC-and-RazorPages\MovieSystem\MovieSystem.Services\obj\Debug\net7.0\ref\MovieSystem.Services.dll

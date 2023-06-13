@@ -1,0 +1,39 @@
+﻿@model MovieSystem.Web.Models.ProducingCompanyModels.ProducingCompanyCreateModel
+
+@{
+    ViewData["Title"] = "Edit Producing Company";
+}
+
+<h1>Edit Producing Company</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditCompany">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfEstablishment" class="control-label"></label>
+                <input asp-for="DateOfEstablishment" class="form-control" />
+                <span asp-validation-for="DateOfEstablishment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="margin-top:20px">
+    <a asp-action="GetAllCompanies" class="back-to">Back to Publishing Companies List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

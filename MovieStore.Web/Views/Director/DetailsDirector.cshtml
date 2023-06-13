@@ -1,0 +1,23 @@
+﻿@model MovieSystem.Web.Models.DirectorModels.DirectorViewModel
+
+@{
+    ViewData["Title"] = "Details of Directors";
+}
+
+<h1>Details Director</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="EditDirector" asp-route-id="@Model.Id" class="edit">Edit</a> |
+    <a asp-action="GetAllDirectors" class="back-to">Go to Directors List</a>
+</div>
